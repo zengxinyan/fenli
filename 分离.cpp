@@ -2,11 +2,11 @@
 int main(){
 int x;
 double y,z;
-printf("ÇëÊäÈëÒ»¸öĞ¡Êı:");
-scanf("%lf",z);
-printf("Õâ¸öĞ¡ÊıÊÇ:%lf",z);
+printf("è¯·è¾“å…¥ä¸€ä¸ªå°æ•°:");
+scanf("%lf",&z);
+printf("è¿™ä¸ªå°æ•°æ˜¯:%lf",z);
 x=z;
 y=z-x;
-printf("%lfµÄÕûÊı²¿·ÖÊÇ:%d,Ğ¡Êı²¿·ÖÊÇ:%lf\n",z,x,y);
+printf("%lfçš„æ•´æ•°éƒ¨åˆ†æ˜¯:%d,å°æ•°éƒ¨åˆ†æ˜¯:%lf\n",z,x,y);
 return 0;
 }
